@@ -69,7 +69,7 @@ export const CrisisSupport = () => {
             <AlertTriangle className="w-6 h-6" />
             <div>
               <h3 className="font-semibold">If you are in immediate danger:</h3>
-              <p>Call 112 or go to your nearest emergency room immediately.</p>
+              <p>Call 108 or go to your nearest emergency room immediately.</p>
             </div>
           </div>
         </CardContent>
