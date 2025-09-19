@@ -4,28 +4,28 @@ import { Phone, MessageCircle, Globe, Clock, AlertTriangle, Heart } from "lucide
 
 const emergencyContacts = [
   {
-    name: "National Suicide Prevention Lifeline",
-    number: "988",
-    description: "24/7 crisis support for suicidal thoughts",
+    name: "KIRAN Mental Health Helpline",
+    number: "1800-599-0019",
+    description: "24/7 crisis support for suicidal thoughts and mental health emergencies",
     type: "emergency"
   },
   {
-    name: "Crisis Text Line",
-    number: "Text HOME to 741741",
-    description: "24/7 crisis support via text message",
-    type: "text"
+    name: "Vandrevala Foundation",
+    number: "9999 666 555",
+    description: "24/7 crisis helpline providing emotional support",
+    type: "support"
+  },
+  {
+    name: "iCall Psychosocial Helpline",
+    number: "9152987821",
+    description: "Professional counseling and crisis intervention",
+    type: "support"
   },
   {
     name: "Campus Counseling Center",
-    number: "(555) 123-4567",
+    number: "Contact your institution",
     description: "Your university's counseling services",
     type: "campus"
-  },
-  {
-    name: "Mental Health America",
-    number: "(800) 969-6642",
-    description: "Mental health information and referrals",
-    type: "support"
   }
 ];
 
@@ -69,7 +69,7 @@ export const CrisisSupport = () => {
             <AlertTriangle className="w-6 h-6" />
             <div>
               <h3 className="font-semibold">If you are in immediate danger:</h3>
-              <p>Call 911 or go to your nearest emergency room immediately.</p>
+              <p>Call 112 or go to your nearest emergency room immediately.</p>
             </div>
           </div>
         </CardContent>
